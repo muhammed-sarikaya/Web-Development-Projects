@@ -1,0 +1,124 @@
+@import url('http://fonts.cdnfonts.com/css/hellobubblebutt');
+
+:root {
+ --num: '?';
+}
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'HelloBubbleButt', sans-serif;
+}
+
+body {
+ background-color: #2C3333;
+ color: #fff;
+}
+
+header {
+ height: 20vh;
+ width: 100vw;
+ margin: 3% 0;
+}
+
+input {
+ padding: 2%;
+ text-align: center;
+}
+
+hr {
+ margin-top: 5%;
+ height: 2vh;
+ background-color: #fff;
+ text-align: center;
+}
+
+hr::before {
+ content: var(--num);
+ font-size: 3rem;
+ border: 6px dashed red;
+ position: absolute;
+ width: 7vw;
+ height: 7vh;
+ left: 45vw;
+ top: 33vh;
+ background-color: #fff;
+ color: red;
+ text-align: center;
+ animation: linear 3s;
+}
+
+.again {
+ float: left;
+ width: 10%;
+ height: 50%;
+ text-align: center;
+ font-size: 2rem;
+ padding: 10px;
+ margin-left: 2%;
+}
+
+.between {
+ float: right;
+ margin-right: 2%;
+ font-size: 1.5rem;
+}
+
+.title {
+ margin-top: 5%;
+ text-align: center;
+ width: 100vw;
+ font-size: 4rem;
+}
+
+.check {
+ float: left;
+ margin-left: 10%;
+ margin-top: 5%;
+ margin-right: 17%;
+ text-align: center;
+}
+
+#number {
+ background-color: rgba(255, 255, 255, 0.781);
+ width: 40%;
+ height: 20vh;
+ margin-bottom: 10%;
+ font-size: 3rem;
+ outline: none;
+ 
+}
+
+input {
+ background-color: #787A91;
+ padding: 5%;
+ text-align: center;
+ font-size: 2rem;
+}
+
+.again {
+ background-color: #B667F1;
+}
+
+input:hover {
+ background-color: #8e90ac8f;
+ border: 2px solid rgb(34, 34, 34);
+}
+
+input:active {
+ background-color: #8e90ac;
+ border: 2px solid rgb(238, 147, 147);
+}
+
+.output {
+ float: left;
+ margin-top: 5%;
+ font-size: 2rem;
+}
+
+
+
+
+
+

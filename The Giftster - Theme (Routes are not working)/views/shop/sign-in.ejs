@@ -1,0 +1,152 @@
+<%- include('../includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/product.css">
+</head>
+
+<body>
+    <%- include('../includes/navigation.ejs') %>
+
+
+    <div class="container text-center" style="padding: 0 25%">
+          <main class="form-signin">
+            <form id="regForm">
+              <img
+                class="mt-4 mb-4"
+                src="Images/logo.png"
+                alt=""
+                width="72"
+                height="57"
+              />
+              <div class="tab">
+                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+                <div class="form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <hr />
+                <h3 class="fs-6 text-center">for sign-up re-enter password</h3>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control conf"
+                    id="floatingPassword2"
+                    placeholder="Password Confirmation"
+                  />
+                  <label for="floatingPassword2">Password Confirmation</label>
+                </div>
+
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me" /> Remember me
+                  </label>
+                </div>
+                <button
+                  id="sign-in"
+                  onclick="nextPrev(1)"
+                  class="w-100 btn btn-lg btn-primary"
+                >
+                  Sign in
+                </button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2020–2021</p>
+              </div>
+
+              <div class="tab">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputName"
+                    placeholder="Jane"
+                  />
+                  <label for="floatingInputName">First Name</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputSurname"
+                    placeholder="Doe"
+                  />
+                  <label for="floatingInputSurname">Last Name</label>
+                </div>
+              </div>
+              <div class="tab">
+                <div class="form-floating">
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="floatingInputDate"
+                    placeholder="Doe"
+                  />
+                  <label for="floatingInputDate">Birth Date</label>
+                </div>
+
+                <button
+                  id="prev"
+                  type="button"
+                  onclick="nextPrev(-1)"
+                  class="w-40 btn btn-md btn-outline-success mt-3"
+                  style="float: left"
+                >
+                Previous
+                </button>
+                <button
+                  id="sign-up"
+                  class="w-100 btn btn-lg btn-primary mt-3"
+                  type="submit"
+                >
+                  Sign Up
+                </button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2020–2021</p>
+              </div>
+                        <br />
+              <div style="overflow: auto">
+                <div style="justify-content: center">
+                  <button
+                    type="button"
+                    class="btn w-40 btn-md btn-outline-success"
+                    style="float: left"
+                    id="prevBtn"
+                    onclick="nextPrev(-1)"
+                  >
+                    Previous
+                  </button>
+                  <button
+                    type="button"
+                    id="nextBtn"
+                    class="btn w-40 btn-md btn-outline-success"
+                    onclick="nextPrev(1)"
+                    style="visibility: hidden;float: right"
+                  >
+                    Next
+                  </button>
+                </div>
+              </div>
+              </div>
+              <div style="text-align: center; margin-top: 40px; visibility: hidden">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+              </div>
+              </div>
+            </form>
+          </main>
+        </div>
+
+
+    <%- include('../includes/end.ejs') %>

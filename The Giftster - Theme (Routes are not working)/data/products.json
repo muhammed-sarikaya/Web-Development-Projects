@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"title": "Christmas Ornaments",
+		"imageUrl": "/images/christmas-ornaments.jpg",
+		"description": "This is an awesome ornament for your christmas tree!",
+		"price": "19"
+	},
+	{
+		"id": "2",
+		"title": "Dream Catcher",
+		"imageUrl": "/images/dream-catcher-black.jpg",
+		"description": "An incredible black dream catcher for your room...",
+		"price": "27"
+	},
+	{
+		"id": "3",
+		"title": "Green Mug",
+		"imageUrl": "/images/mug-green-barrel-shaped.jpg",
+		"description": "A nice looking mug for all your drinks...",
+		"price": "27"
+	},
+	{
+		"id": "4",
+		"title": "Red Star",
+		"imageUrl": "/images/figure-red-star.jpg",
+		"description": "An excellent piece of ornament!",
+		"price": "16"
+	},
+	{
+		"id": "5",
+		"title": "Angel Figure",
+		"imageUrl": "/images/figure-angel.jpg",
+		"description": "A must have figurine!!",
+		"price": "23"
+	},
+	{
+		"id": "6",
+		"title": "Flower",
+		"imageUrl": "/images/flower.jpg",
+		"description": "This flower will make your room more colorful!",
+		"price": "17"
+	},
+	{
+		"id": "7",
+		"title": "Chimney Socks",
+		"imageUrl": "/images/socks.jpg",
+		"description": "To make your chimney more christmasy...",
+		"price": "27"
+	},
+	{
+		"id": "8",
+		"title": "Bear Figure",
+		"imageUrl": "/images/figure-bear.jpg",
+		"description": "Can make everywhere more home like...",
+		"price": "27"
+	},
+	{
+		"id": "9",
+		"title": "Christmas Door Hanger",
+		"imageUrl": "/images/door-hanger.jpg",
+		"description": "Best welcome hanger ever...",
+		"price": "27"
+	},
+	{
+		"id": "10",
+		"title": "White Mug",
+		"imageUrl": "/images/mug-white-writing.jpg",
+		"description": "An incredible black dream catcher for your room...",
+		"price": "27"
+	}
+]
